@@ -1,0 +1,339 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    width: 100%;
+    background: #fff;
+}
+
+header .navbar-expand-lg {
+    position: fixed;
+    top: 0px;
+    background: #fff;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #303133;
+    font-weight: 700;
+}
+
+header .nav-link {
+    color: #303133;
+    opacity: 0.95;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-slogan {
+    margin-top: 100px;
+}
+
+.header-slogan h1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.header-slogan p {
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    margin-top: 25px;
+    color: #666 !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-slogan .btn {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    color: #fff;
+    padding: 13px 30px;
+    background: #005FF2;
+    border-radius: 3px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.header-slogan .btn :hover {
+    background: #0052ce;
+}
+
+.header-slogan a {
+    text-decoration: none;
+}
+
+/* --------------------------main------------------------- */
+
+main {
+    width: 100%;
+}
+
+main .filter-nav {
+    padding: 30px 0px;
+    background: #1E252C;
+    width: 100%;
+    margin-top: 120px;
+}
+
+main .filter-nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: auto;
+    color: #fff;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+main .filter-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+main .filter-nav ul li a:hover {
+    color: rgb(120, 120, 120);
+}
+
+.combo-box-sec {
+    background: #191F25;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.combo-box-sec .box {
+    width: 403px;
+    margin-top: 25px;
+    transition: 0.3s;
+
+}
+
+.combo-box-sec .box:hover {
+    margin-top: 20px;
+}
+
+.combo-box-sec .box img {
+    width: 100%;
+    height: 268px;
+    object-fit: cover;
+    transition: 0.2s;
+}
+
+.combo-box-sec .box img:hover {
+    opacity: 0.85;
+}
+
+.combo-box-sec .box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.combo-box-sec .box p {
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.create-web {
+    background: linear-gradient(to right bottom, rgb(12, 180, 206) 5%, #006cff 30%, #9012fe 80%);
+    height: 350px;
+    width: 100%;
+}
+
+.create-web article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: url("../../wwwroot/images/index-particles-min.png");
+}
+
+.create-web article div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-web article div p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 25px;
+}
+
+.create-web article div .btn {
+    border-radius: 50%;
+    padding: 0px;
+    border: 20px solid rgba(200, 200, 200, 0.3);
+    transition: 0.17s;
+}
+
+.create-web article div .btn i {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-top: 35%;
+    padding-left: 10%;
+    transition: 0.2s;
+}
+
+.create-web article div .btn:hover>.fa-play {
+    transform: scale(1.4);
+}
+
+.create-web article div .btn:hover {
+    border: 30px solid rgba(200, 200, 200, 0.3);
+}
+
+
+.slider-sec {
+    background: #1F262D;
+    padding: 70px 0px;
+}
+
+.slider-sec h1,
+p {
+    text-align: center;
+    color: #fff;
+}
+
+.slider-sec p {
+    font-size: 20px;
+}
+
+.slider-sec article {
+    padding: 30px 0px;
+}
+
+
+.slider-sec button {
+    display: block;
+    padding: 10px 30px;
+    margin: auto;
+    color: #fff;
+    font-weight: 500;
+    background: linear-gradient(#5735F2, #5735F2);
+}
+
+
+.glider-track {
+    width: 100%;
+}
+
+.glider-contain .glider div {
+    margin: 0px 40px;
+}
+
+.glider-slide {
+    width: 450px !important;
+}
+
+
+.video-sec {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.video-sec video {
+    width: 130%;
+    height: 1800px;
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+    object-position: top;
+}
+
+.video-sec article {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 100;
+    background: linear-gradient(to right bottom, rgba(12, 180, 206, 0.7) 5%, rgba(0, 108, 255, 0.7) 30%, rgba(144, 18, 254, 0.7) 80%);
+}
+
+.video-sec article h1 {
+    width: 60%;
+    margin: auto;
+    margin-top: 280px;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+}
+
+.video-sec article p {
+    margin-top: 50px;
+}
+
+.video-sec article div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video-sec article div table {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 120px;
+    top: 60%;
+}
+
+.video-sec article div .btn {
+    background: #7AA93C;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    font-weight: 700;
+}
+
+.video-sec article div table tr td {
+    text-align: center;
+    border: 1px solid #fff;
+    border-bottom: none;
+    transition: 0.2s;
+}
+
+.video-sec article div table tr td:hover {
+    background: rgba(23, 23, 23, 0.15);
+}
+
+.video-sec article div table tr td a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.video-sec article div table tr td a i {
+    font-size: 25px;
+}
+
+.video-sec article div table tr td span {
+    display: block;
+}
